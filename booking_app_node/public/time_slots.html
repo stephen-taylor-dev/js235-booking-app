@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Slots</title>
+    <style>
+        .add-student {
+            margin-top: 10px;
+            padding: 20px;
+            background-color: lightgray;
+        }
+    </style>
+    <script src="javascripts/timeSlot.js"></script>
+</head>
+<body>
+    <h1>Schedules</h1>
+    <form id="book-schedule" action="/api/bookings" method="POST">
+        <div>
+            <label for="schedule_id">Please select one schedule</label>
+            <select name="id" id="schedule_id"><span id="options"></span></select>
+        </div>
+        <div>
+            <label for="student_email">Email:</label>
+            <input type="email" id="student_email" name="student_email">
+            <input type="submit">
+        </div>
+    </form>
+
+    
+    
+</body>
+</html>

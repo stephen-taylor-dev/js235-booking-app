@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancelations</title>
+    <script src="javascripts/cancel.js"></script>
+</head>
+<body>
+    <h1>Cancel Bookings or Schedules</h1>
+    <form id="cancel-booking" action='#' method="PUT">
+        <label for="booking_id">Cancel Booking (Enter Booking id)</label>
+        <input type="number" id="booking_id">
+        <input type="submit">
+    </form>
+
+    <form id="cancel-schedule" action="">
+        <label for="schedule_id">Cancel Schedule (Enter Schedule id)</label>
+        <input id="schedule_id" type="number">
+        <input type="submit">
+    </form>
+</body>
+</html>
